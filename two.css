@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(#2bff00, #ffffff);
+    /* background-image: radial-gradient(#e52e71,#ff8a00); */
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: block;
+    width: 50%;
+    height:100%;
+    background: #eeeeee;
+    border-radius: 15px;
+    color: #000000;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.headline{
+display: flex;
+justify-content:center;
+color:#000000;
+font-size: 30px;
+font-weight: 500;
+padding: 15px 15px;
+display: flex;
+align-items: center;
+border-bottom: 1px solid #000000;
+}
+
+.holderId{
+align-items: center;
+margin: 25px 25px 25px 25px;
+}
+
+.holderPassword{
+    align-items: center;
+    margin: 25px 25px 25px 25px;
+}
+
+.button{
+    align-items: center;
+    margin: 25px 25px 25px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.out {
+    margin: 0px 10px 0px 10px;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background:#dddddd;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 7px;
+    border: none;
+    line-height: 1.4;
+}
+
+button{
+    width: 100%;
+    height: 75px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px #444;
+    cursor: pointer;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background:#dddddd;
+    color:#000000;
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: 'Oswald', sans-serif;
+}
+
+input:hover{
+    background-color: #ffffff;
+}
+
+textarea:hover {
+    background-color: #ffffff;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

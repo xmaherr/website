@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(#2bff00, #ffffff);
+    /* background-image: radial-gradient(#e52e71,#ff8a00); */
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: block;
+    width: 50%;
+    height:100%;
+    background: #eeeeee;
+    border-radius: 15px;
+    color: #000000;
+    grid-gap: 1em;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    
+}
+.buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    margin: 25px;
+    }
+
+.headline{
+    display: block;
+    justify-content:center;
+    color:#000000;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    }
+    
